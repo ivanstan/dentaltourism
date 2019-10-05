@@ -1,6 +1,8 @@
+$primary: #5FC8D7 !default;
+
 @import "~bootstrap/scss/bootstrap";
 
-$fa-font-path : "/fonts/font-awesome";
+$fa-font-path: "/fonts/font-awesome";
 @import "~@fortawesome/fontawesome-free-webfonts/scss/fontawesome.scss";
 @import "~@fortawesome/fontawesome-free-webfonts/scss/fa-regular";
 @import "~@fortawesome/fontawesome-free-webfonts/scss/fa-solid";

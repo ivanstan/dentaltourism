@@ -41,6 +41,14 @@ export class Home extends React.Component<any, any> {
             </p>
           </div>
         </div>
+        <div className="row mb-5">
+          <div className="col-12 d-flex justify-content-between">
+            <img src="/images/NEX_3315.jpg" width="23%"/>
+            <img src="/images/NEX_5167.jpg" width="23%"/>
+            <img src="/images/NEX_5189.jpg" width="23%"/>
+            <img src="/images/NEX_5212.jpg" width="23%"/>
+          </div>
+        </div>
         <div className="row">
           <div className="col-lg-12 mb-5">
             <h2 className="text-center my-5" id="anfrage">Anfrage</h2>

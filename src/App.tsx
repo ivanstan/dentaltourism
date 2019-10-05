@@ -15,20 +15,20 @@ const App: React.FC = () => {
   // or load it from the server.
   const [messages, setMessages] = React.useState({});
 
-  React.useEffect(
-    () => {
-      async function fetchData() {
-        const response = await fetch(`/translations/${locale}.json`);
-        const data = await response.json();
-        // In a real app, you should consider caching the results in an object.
-        // To prevent requests for same locale again.
-        return data;
-      }
-
-      fetchData()
-    },
-    [locale]
-  );
+  // React.useEffect(
+  //   () => {
+  //     async function fetchData() {
+  //       const response = await fetch(`/translations/${locale}.json`);
+  //       const data = await response.json();
+  //       // In a real app, you should consider caching the results in an object.
+  //       // To prevent requests for same locale again.
+  //       return data;
+  //     }
+  //
+  //     fetchData()
+  //   },
+  //   [locale]
+  // );
 
   return (
     <div className='flex-wrapper'>
@@ -43,7 +43,7 @@ const App: React.FC = () => {
             >
               <Route path='/' exact component={Home}/>
             </AnimatedSwitch>
-            <Footer/>
+            {/*<Footer/>*/}
           </Router>
         </I18n>
       </LocaleContext.Provider>
