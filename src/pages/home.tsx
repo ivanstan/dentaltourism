@@ -52,7 +52,8 @@ export class Home extends React.Component<any, any> {
         <div className="row">
           <div className="col-lg-12 mb-5">
             <h2 className="text-center my-5" id="anfrage">Anfrage</h2>
-            <form action={"https://formspree.io/" + mailContact} method="POST">
+            <form action={"https://getform.io/f/dafa535e-de69-4fcd-ac3d-6f44cd879092"} method="POST"
+                  encType="multipart/form-data">
               <div className="form-group">
                 <label>Vorname ( Pflichtfeld)</label>
                 <input type="text" className="form-control" name="first_name"/>
@@ -83,15 +84,40 @@ export class Home extends React.Component<any, any> {
                 <textarea className="form-control" name="description"/>
               </div>
 
+              <div className="form-group">
+                <div className="custom-file">
+                  <input type="file" name="ro" className="custom-file-input" id="customFile"/>
+                  <label className="custom-file-label" htmlFor="customFile">Ihr Rö Bild ( Panorama Bild-OPG)
+                    (Pflichtfeld)</label>
+                </div>
+              </div>
+
+              <div className="form-group">
+                <div className="custom-file">
+                  <input type="file" name="fotos" className="custom-file-input" id="customFile"/>
+                  <label className="custom-file-label" htmlFor="customFile">Fotos von Ihren Zähnen (optional)</label>
+                </div>
+              </div>
+
+              <div className="form-group">
+                <label>Vorhandene Therapieplan ( falls vorhanden)</label>
+                <textarea className="form-control" name="description"/>
+              </div>
+
+              <div className="form-group">
+                <label>Gewünschte Datum Ihres Therapiebeginns</label>
+                <input type="date" className="form-control" name="date"/>
+              </div>
+
+              <div className="form-group">
+                <label>Möchten Sie einen Kostenvoranschlag für Ihre Aufenthalt im Serbien während der Behandlung ( Falls
+                  ja, wie viel Personen sollen wir buchen, liegen besondere wünsche für das Hotel, bitte beschreiben )
+                </label>
+                <textarea className="form-control" name="custom"/>
+              </div>
+
               <input type="submit" value="Submit" className="btn btn-primary text-white d-block mx-auto"
                      style={{width: 100}}/>
-
-              {/*Ihr Rö Bild ( Panorama Bild-OPG) (Pflichtfeld)*/}
-              {/*Fotos von Ihren Zähnen (optional)*/}
-              {/*Vorhandene Therapieplan ( falls vorhanden)*/}
-              {/*Gewünschte Datum Ihres Therapiebeginns*/}
-              {/*Möchten Sie einen Kostenvoranschlag für Ihre Aufenthalt im Serbien während der Behandlung ( Falls ja, wie viel Personen sollen wir buchen, liegen besondere wünsche für das Hotel, bitte beschreiben )*/}
-
             </form>
           </div>
         </div>
