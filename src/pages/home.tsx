@@ -1,6 +1,8 @@
 import React from 'react';
 import {mailContact} from "../config";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
+import {Carousel} from "react-responsive-carousel";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const header = {
   background: '#5FC8D7',
@@ -24,30 +26,34 @@ export class Home extends React.Component<any, any> {
       <div className="container mb-5">
         <div className="row mb-5">
           <div className="col-12">
-            <h2 className="text-center my-5">Über mich</h2>
-            <p>Ich heiße Antonio Milivoevski und bin als Zahnarzt in einer deutschen Zahnarztpraxis tätig.<br/>
-              Mein Studium der Zahnmedizin habe ich 2013 in Belgrad, Serbien abgeschlossen.<br/>
-              Seit 2017 bin ich als Zahnarzt in Deutschland angestellt. Tägliche Beschäftigung mit Patienten in
-              Deutschland hat mir die Idee über dental Tourismus gebracht. Jeder Mensch verdient eine vernünftige
-              Zahnbehandlung. Leider oft die Preise in Deutschland erlauben es nicht.
-              Als jemand der in Serbien Zahnmedizin studiert hat und auch dort 2 Jahre als Zahnarzt gearbeitet hat
-              dürfte ich mir erlauben die Qualität der Zahnbehandlung in Serbien mit der deutschen zu vergleichen.
-              Niedrigere kosten für zahnärztliche Behandlung bedeuten nicht immer weniger Qualität. Das kann ich auch in
-              diesem Fall behaupten. In manchen Zahnarztpraxen arbeiten die Professoren von den Universitäten und in
-              fast allen sind Fachärzte für Prothetik oder Kieferchirurgie tätig.
-              Viele fragen sich warum ist im Ausland bzw. Serbien Zahnersatz drastisch billiger als in Deutschland? Es
-              ist einfach zu erklären. Lebensstandard, Steuer, Zahntechnischekosten sind niedriger, die Qualität, die
-              Verantwortung, Fähigkeit und Fachwissen im Gegenteil nicht.
+            <h2 className="text-center my-5">Über uns</h2>
+            <p>Jeder Mensch verdient eine vernünftige Zahnbehandlung. Öfter die Preise der Zahnbehandlung insbesondere
+              Implantatsanierung in einer Zahnarztpraxis in deutschland erlauben es nicht . Wir sind ein Team das
+              zahnärztliche Erfahrung sowie in Serbien als auch in Deutscland gesammelt hat und die Qualität der
+              Zahnbehandlung in Serbien mit der deutschen vergleichen darf und kann. Niedrigere kosten für zahnärztliche
+              Behandlung bedeuten nicht immer weniger Qualität. Das kann man auch in diesem Fall behaupten. Viele fragen
+              sich warum ist im Ausland bzw. Serbien Zahnersatz drastisch billiger als in Deutschland? Es ist einfach zu
+              erklären. Lebensstandard, Steuer und Laborkosten sind niedriger, die Qualität, die Verantwortung,
+              Fähigkeit und Fachwissen im Gegenteil nicht.
             </p>
           </div>
         </div>
         <div className="row mb-5">
-          <div className="col-12 d-flex justify-content-between">
-            <img src="/images/NEX_3315.jpg" width="23%"/>
-            <img src="/images/NEX_5167.jpg" width="23%"/>
-            <img src="/images/NEX_5189.jpg" width="23%"/>
-            <img src="/images/NEX_5212.jpg" width="23%"/>
-          </div>
+          <Carousel infiniteLoop={true} autoPlay={true} showThumbs={false} showStatus={false} stopOnHover={false}>
+            <div>
+              <img src="/images/NEX_3315.jpg" width="23%"/>
+            </div>
+            <div>
+              <img src="/images/NEX_5167.jpg" width="23%"/>
+            </div>
+            <div>
+              <img src="/images/NEX_5189.jpg" width="23%"/>
+            </div>
+            <div>
+              <img src="/images/NEX_5212.jpg" width="23%"/>
+            </div>
+          </Carousel>
+
         </div>
         <div className="row">
           <div className="col-lg-12 mb-5">
@@ -86,7 +92,7 @@ export class Home extends React.Component<any, any> {
 
               <div className="form-group">
                 <div className="custom-file">
-                  <input type="file" name="ro" className="custom-file-input" id="customFile"/>
+                  <input type="file" name="file" className="custom-file-input" id="customFile"/>
                   <label className="custom-file-label" htmlFor="customFile">Ihr Rö Bild ( Panorama Bild-OPG)
                     (Pflichtfeld)</label>
                 </div>

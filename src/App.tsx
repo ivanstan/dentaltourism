@@ -35,7 +35,7 @@ const App: React.FC = () => {
       <LocaleContext.Provider value={{locale, setLocale}}>
         <I18n locale={locale} messages={messages}>
           <Router>
-            {/*<Header/>*/}
+            <Header/>
             <AnimatedSwitch
               atEnter={{opacity: 0}}
               atLeave={{opacity: 0}}
