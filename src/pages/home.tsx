@@ -3,6 +3,8 @@ import {mailContact} from "../config";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import {Carousel} from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
+import {Link} from "react-router-dom";
+import {bool} from "prop-types";
 
 const header = {
   background: '#5FC8D7',
@@ -17,7 +19,24 @@ const anchor = {
 
 export class Home extends React.Component<any, any> {
 
+  constructor(props: any) {
+    super(props);
+
+    this.state = {
+      submitEnabled: false,
+    };
+  }
+
+  onCheckbox(e: any) {
+    this.setState({
+      submitEnabled: !this.state.submitEnabled
+    });
+  }
+
   public render() {
+
+    console.log(this.state)
+
     return <div className="mb-5">
       <div style={header}>
         <h1 className="text-white text-center" style={{paddingTop: 120}}>Dentaltourismus</h1>
@@ -122,7 +141,12 @@ export class Home extends React.Component<any, any> {
                 <textarea className="form-control" name="custom"/>
               </div>
 
-              <input type="submit" value="Submit" className="btn btn-primary text-white d-block mx-auto"
+              <div className="custom-control custom-checkbox">
+                <input type="checkbox" value={this.state.submitEnabled} className="custom-control-input" id="customCheck1" onClick={e => this.onCheckbox(e)}/>
+                  <label className="custom-control-label" htmlFor="customCheck1">Prihvatam uslove koriscenja. <Link to={"/terms"}>Detalji</Link></label>
+              </div>
+
+              <input type="submit" value="Submit" disabled={!this.state.submitEnabled} className="btn btn-primary text-white d-block mx-auto"
                      style={{width: 100}}/>
             </form>
           </div>

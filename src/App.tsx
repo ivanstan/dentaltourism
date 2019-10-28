@@ -8,6 +8,7 @@ import {Header} from './components/header';
 import {Footer} from './components/footer';
 import {Home} from './pages/home';
 import LocaleContext from './contexts/locale'
+import {Terms} from "./pages/terms";
 
 const App: React.FC = () => {
   const [locale, setLocale] = React.useState('en');
@@ -42,6 +43,7 @@ const App: React.FC = () => {
               atActive={{opacity: 1}}
             >
               <Route path='/' exact component={Home}/>
+              <Route path='/terms' exact component={Terms}/>
             </AnimatedSwitch>
             {/*<Footer/>*/}
           </Router>
