@@ -1,20 +1,18 @@
 import React from 'react';
-import {mailContact} from "../config";
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import {Carousel} from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import {Link} from "react-router-dom";
-import {bool} from "prop-types";
-
-const header = {
-  background: '#5FC8D7',
-  minHeight: 300,
-  marginBottom: 20,
-};
+import {Link, NavLink} from "react-router-dom";
 
 const anchor = {
   marginTop: 30,
   width: 100,
+};
+
+const overlay = {
+  position: 'relative' as 'relative',
+  marginTop: -300,
+  marginBottom: 100
 };
 
 export class Home extends React.Component<any, any> {
@@ -23,24 +21,47 @@ export class Home extends React.Component<any, any> {
     super(props);
 
     this.state = {
-      submitEnabled: false,
+      firstCheckbox: false,
+      secondCheckbox: false,
     };
   }
 
-  onCheckbox(e: any) {
+  onFirstCheckbox(e: any) {
     this.setState({
-      submitEnabled: !this.state.submitEnabled
+      firstCheckbox: !this.state.firstCheckbox
+    });
+  }
+
+  onSecondCheckbox(e: any) {
+    this.setState({
+      secondCheckbox: !this.state.secondCheckbox
     });
   }
 
   public render() {
-
-    console.log(this.state)
-
     return <div className="mb-5">
-      <div style={header}>
-        <h1 className="text-white text-center" style={{paddingTop: 120}}>Dentaltourismus</h1>
-        <AnchorLink href="#anfrage" className="btn bg-white d-block mx-auto" style={anchor}>Anfrage</AnchorLink>
+      <div>
+        <Carousel infiniteLoop={true} autoPlay={true} showThumbs={false} showStatus={false} stopOnHover={false}>
+          <div>
+            <img src="/images/NEX_3306.jpg" width="23%"/>
+          </div>
+          <div>
+            <img src="/images/NEX_5167.jpg" width="23%"/>
+          </div>
+          <div>
+            <img src="/images/NEX_5172.jpg" width="23%"/>
+          </div>
+          <div>
+            <img src="/images/NEX_5189.jpg" width="23%"/>
+          </div>
+          <div>
+            <img src="/images/NEX_5212.jpg" width="23%"/>
+          </div>
+        </Carousel>
+        <div style={overlay}>
+          <h1 className="text-white text-center" style={{paddingTop: 120, fontWeight: 'bolder'}}>Balkan Dental Tourism</h1>
+          <AnchorLink href="#anfrage" className="btn bg-white d-block mx-auto" style={anchor}>Anfrage</AnchorLink>
+        </div>
       </div>
       <div className="container mb-5">
         <div className="row mb-5">
@@ -57,23 +78,56 @@ export class Home extends React.Component<any, any> {
             </p>
           </div>
         </div>
-        <div className="row mb-5">
-          <Carousel infiniteLoop={true} autoPlay={true} showThumbs={false} showStatus={false} stopOnHover={false}>
-            <div>
-              <img src="/images/NEX_3315.jpg" width="23%"/>
-            </div>
-            <div>
-              <img src="/images/NEX_5167.jpg" width="23%"/>
-            </div>
-            <div>
-              <img src="/images/NEX_5189.jpg" width="23%"/>
-            </div>
-            <div>
-              <img src="/images/NEX_5212.jpg" width="23%"/>
-            </div>
-          </Carousel>
 
+        <div className="row">
+          <div className="col-lg-12 mb-5">
+            <h2 className="text-center my-5">Schritt für Schrit</h2>
+
+            <div className="d-flex">
+              <div className="card mx-1 flex-grow-1 bg-light" style={{flexBasis: '20%'}}>
+                <div className="card-body text-center">
+                  <h4 className="card-title h1">1</h4>
+                  <p className="card-text">
+                    Ihre Anfrage
+                  </p>
+                </div>
+              </div>
+              <div className="card mx-1 flex-grow-1" style={{flexBasis: '20%'}}>
+                <div className="card-body text-center">
+                  <h4 className="card-title h1">2</h4>
+                  <p className="card-text">
+                    Wir schicken die Anfrage an Zahnarztpraxis in Serbien
+                  </p>
+                </div>
+              </div>
+              <div className="card mx-1 flex-grow-1 bg-light" style={{flexBasis: '20%'}}>
+                <div className="card-body text-center">
+                  <h4 className="card-title h1">3</h4>
+                  <p className="card-text">
+                    Sie entscheiden sich für Zahnklinik wo Sie sichbehandeln lassenmöchten
+                  </p>
+                </div>
+              </div>
+              <div className="card mx-1 flex-grow-1" style={{flexBasis: '20%'}}>
+                <div className="card-body text-center">
+                  <h4 className="card-title h1">4</h4>
+                  <p className="card-text">
+                    Wir bekommen Therapieplan für Sie
+                  </p>
+                </div>
+              </div>
+              <div className="card mx-1 flex-grow-1 bg-light" style={{flexBasis: '20%'}}>
+                <div className="card-body text-center">
+                  <h4 className="card-title h1">5</h4>
+                  <p className="card-text">
+                    Wir verbinden Sie mit der Zahnklinik
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+
         <div className="row">
           <div className="col-lg-12 mb-5">
             <h2 className="text-center my-5" id="anfrage">Anfrage</h2>
@@ -142,11 +196,19 @@ export class Home extends React.Component<any, any> {
               </div>
 
               <div className="custom-control custom-checkbox">
-                <input type="checkbox" value={this.state.submitEnabled} className="custom-control-input" id="customCheck1" onClick={e => this.onCheckbox(e)}/>
-                  <label className="custom-control-label" htmlFor="customCheck1">Prihvatam uslove koriscenja. <Link to={"/terms"}>Detalji</Link></label>
+                <input type="checkbox" value={this.state.firstCheckbox} className="custom-control-input"
+                       id="customCheck1" onClick={e => this.onFirstCheckbox(e)}/>
+                <label className="custom-control-label" htmlFor="customCheck1">Ich habe die <Link to={"/terms"}>Datenschutzerklärung</Link> zu Kenntnis genommen.</label>
               </div>
 
-              <input type="submit" value="Submit" disabled={!this.state.submitEnabled} className="btn btn-primary text-white d-block mx-auto"
+              <div className="custom-control custom-checkbox">
+                <input type="checkbox" value={this.state.secondCheckbox} className="custom-control-input"
+                       id="customCheck2" onClick={e => this.onSecondCheckbox(e)}/>
+                <label className="custom-control-label" htmlFor="customCheck2">Ich stimme den AGB zu.</label>
+              </div>
+
+              <input type="submit" value="Submit" disabled={!this.state.firstCheckbox || !this.state.secondCheckbox}
+                     className="btn btn-primary text-white d-block mx-auto"
                      style={{width: 100}}/>
             </form>
           </div>

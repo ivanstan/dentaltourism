@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ScssLintProjectComponent">
+    <option name="scssLintExecutable" value="C:\Users\Ivan\AppData\Roaming\npm\node_modules\sass-lint\bin\sass-lint.cmd" />
     <option name="pluginEnabled" value="true" />
-    <option name="dismissConfigurationHints" value="true" />
   </component>
 </project>

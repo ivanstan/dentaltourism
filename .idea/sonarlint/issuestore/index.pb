@@ -29,3 +29,5 @@ A
 docs/CNAME,1\b\1bf0b99a5ee7b38d88d7b4fc87313bad3808bf29
 I
 src/components/header.tsx,c\b\cb8ca755da11560a875752d09bd2bbedf68ebf9b
+C
+src/pages/terms.tsx,e\1\e160644752c2a7cb255722b491a6b5289d7418e9

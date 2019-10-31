@@ -11,12 +11,10 @@ export class Header extends React.Component<any, any> {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
             <NavLink className="nav-link" exact to="/">Stratseite</NavLink>
-            <NavLink className="nav-link" exact to="/">Über uns</NavLink>
-            <NavLink className="nav-link" exact to="/">Zahnarztpraxen</NavLink>
-            <NavLink className="nav-link" exact to="/">Anfrage</NavLink>
-            <NavLink className="nav-link" exact to="/">Schritt für Schrit</NavLink>
-            <NavLink className="nav-link" exact to="/">Über Serbien</NavLink>
-            <NavLink className="nav-link" exact to="/">Kontakt</NavLink>
+            <NavLink className="nav-link" exact to="/anfrage">Anfrage</NavLink>
+            <NavLink className="nav-link" exact to="/partners">Zahnarztpraxen</NavLink>
+            <NavLink className="nav-link" exact to="/about">Über Serbien</NavLink>
+            <NavLink className="nav-link" exact to="/contact">Kontakt</NavLink>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
