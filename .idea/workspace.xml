@@ -2,23 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="119f7f1f-11cb-40ed-95c0-79381068bbf9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/NEX_2378-Pano.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/NEX_2396-Pano.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/NEX_2481-Pano.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/NEX_3306.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/NEX_3306.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/NEX_5167.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/NEX_5167.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/NEX_5172.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/NEX_5172.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/NEX_5189.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/NEX_5189.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/NEX_5212.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/NEX_5212.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/contact.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/imprint.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/imprint.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/partners.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/partners.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/terms.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/terms.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/NEX_5167.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/images/NEX_5167.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/NEX_5189.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/images/NEX_5189.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/NEX_5212.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/build/images/NEX_5212.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/about.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/about.tsx" afterDir="false" />
     </list>
     <ignored path=".idea/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,13 +20,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/home.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="125" column="31" lean-forward="true" selection-start-line="125" selection-start-column="31" selection-end-line="125" selection-end-column="31" />
+            <state relative-caret-position="133">
+              <caret line="58" column="22" lean-forward="true" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/about.tsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,7 +81,6 @@
         <option value="$PROJECT_DIR$/src/scss/main.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/pages/data.tsx" />
-        <option value="$PROJECT_DIR$/src/pages/about.tsx" />
         <option value="$PROJECT_DIR$/src/components/header.tsx" />
         <option value="$PROJECT_DIR$/src/App.tsx" />
         <option value="$PROJECT_DIR$/src/components/footer.tsx" />
@@ -91,6 +93,7 @@
         <option value="$PROJECT_DIR$/src/pages/partners.tsx" />
         <option value="$PROJECT_DIR$/src/pages/contact.tsx" />
         <option value="$PROJECT_DIR$/src/pages/home.tsx" />
+        <option value="$PROJECT_DIR$/src/pages/about.tsx" />
       </list>
     </option>
   </component>
@@ -193,12 +196,12 @@
     <property name="typescript-compiler-editor-notification" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\dentaltourism\public" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\dentaltourism\public\images" />
       <recent name="C:\xampp\htdocs\dentaltourism\src\pages" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\dentaltourism\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -284,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572546548423</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add slider">
+      <created>1572639495848</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1572639495848</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -561,13 +571,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/about.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/imprint.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -577,10 +580,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/home.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="125" column="31" lean-forward="true" selection-start-line="125" selection-start-column="31" selection-end-line="125" selection-end-column="31" />
+        <state relative-caret-position="133">
+          <caret line="58" column="22" lean-forward="true" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="22" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/about.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="20" column="30" lean-forward="true" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
