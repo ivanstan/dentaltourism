@@ -6,13 +6,6 @@ export class Imprint extends React.Component<any, any> {
     return <div className="container">
       <h2>Impressum</h2>
 
-      <p>
-      Ime firme<br/>
-      Adresa<br/>
-      Predstavnik<br/>
-      Registereintrag<br/>
-      </p>
-
       <p>Umsatzsteuer-ID</p>
 
       <p>Umsatzsteuer-Identifikationsnummer/ Poreski broj<br/>

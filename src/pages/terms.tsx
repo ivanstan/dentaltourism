@@ -12,14 +12,6 @@ export class Terms extends React.Component<any, any> {
         Einhalten der gesetzlichen Bestimmungen zum Datenschutz für uns selbstverständlich. Ferner ist es uns
         wichtig, dass Sie jederzeit wissen, wann wir welche Daten speichern und wie wir sie verwenden.</p>
 
-      <h3>1. Verantwortlicher Anbieter</h3>
-
-      <p>Verantwortlicher Anbieter dieser Erklärung ist:<br/>
-        Gelencsér Dental Kft.<br/>
-        Vörösmarty Str. 75.<br/>
-        H-8380 Hévíz<br/>
-      </p>
-
       <h3>2. Datenerhebung</h3>
 
       <p>In der Regel können Sie unsere Seiten besuchen, ohne dass wir persönliche Daten von Ihnen benötigen.

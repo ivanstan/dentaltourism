@@ -11,8 +11,23 @@ const anchor = {
 
 const overlay = {
   position: 'relative' as 'relative',
-  marginTop: -300,
+  marginTop: -200,
   marginBottom: 100
+};
+
+const title:any = {
+  paddingTop: 120,
+  fontWeight: 'bolder',
+  padding: 10,
+  background: '#5FC8D7',
+  display: 'block',
+  margin: 'auto',
+  width: '30vw'
+};
+
+const card = {
+  background: 'linear-gradient(135deg, #0FF0B3 0%,#5fc8d7 100%)',
+  border: 'none',
 };
 
 export class Home extends React.Component<any, any> {
@@ -59,7 +74,7 @@ export class Home extends React.Component<any, any> {
           </div>
         </Carousel>
         <div style={overlay}>
-          <h1 className="text-white text-center" style={{paddingTop: 120, fontWeight: 'bolder'}}>Balkan Dental Tourism</h1>
+          <h1 className="text-white text-center" style={title}>Balkan Dental Tourism</h1>
           <AnchorLink href="#anfrage" className="btn bg-white d-block mx-auto" style={anchor}>Anfrage</AnchorLink>
         </div>
       </div>
@@ -68,7 +83,7 @@ export class Home extends React.Component<any, any> {
           <div className="col-12">
             <h2 className="text-center my-5">Über uns</h2>
             <p>Jeder Mensch verdient eine vernünftige Zahnbehandlung. Öfter die Preise der Zahnbehandlung insbesondere
-              Implantatsanierung in einer Zahnarztpraxis in deutschland erlauben es nicht . Wir sind ein Team das
+              Implantatsanierung in einer Zahnarztpraxis in Deutschland erlauben es nicht . Wir sind ein Team das
               zahnärztliche Erfahrung sowie in Serbien als auch in Deutscland gesammelt hat und die Qualität der
               Zahnbehandlung in Serbien mit der deutschen vergleichen darf und kann. Niedrigere kosten für zahnärztliche
               Behandlung bedeuten nicht immer weniger Qualität. Das kann man auch in diesem Fall behaupten. Viele fragen
@@ -81,10 +96,10 @@ export class Home extends React.Component<any, any> {
 
         <div className="row">
           <div className="col-lg-12 mb-5">
-            <h2 className="text-center my-5">Schritt für Schrit</h2>
+            <h2 className="text-center my-5">Schritt für Schritt</h2>
 
             <div className="d-flex">
-              <div className="card mx-1 flex-grow-1 bg-light" style={{flexBasis: '20%'}}>
+              <div className="card mx-1 flex-grow-1" style={{flexBasis: '20%', ...card}}>
                 <div className="card-body text-center">
                   <h4 className="card-title h1">1</h4>
                   <p className="card-text">
@@ -92,7 +107,7 @@ export class Home extends React.Component<any, any> {
                   </p>
                 </div>
               </div>
-              <div className="card mx-1 flex-grow-1" style={{flexBasis: '20%'}}>
+              <div className="card mx-1 flex-grow-1 bg-light border-0" style={{flexBasis: '20%'}}>
                 <div className="card-body text-center">
                   <h4 className="card-title h1">2</h4>
                   <p className="card-text">
@@ -100,15 +115,15 @@ export class Home extends React.Component<any, any> {
                   </p>
                 </div>
               </div>
-              <div className="card mx-1 flex-grow-1 bg-light" style={{flexBasis: '20%'}}>
+              <div className="card mx-1 flex-grow-1 bg-light" style={{flexBasis: '20%', ...card}}>
                 <div className="card-body text-center">
                   <h4 className="card-title h1">3</h4>
                   <p className="card-text">
-                    Sie entscheiden sich für Zahnklinik wo Sie sichbehandeln lassenmöchten
+                    Sie entscheiden sich für Zahnklinik wo Sie sich behandeln lassen möchten
                   </p>
                 </div>
               </div>
-              <div className="card mx-1 flex-grow-1" style={{flexBasis: '20%'}}>
+              <div className="card mx-1 flex-grow-1 bg-light border-0" style={{flexBasis: '20%'}}>
                 <div className="card-body text-center">
                   <h4 className="card-title h1">4</h4>
                   <p className="card-text">
@@ -116,7 +131,7 @@ export class Home extends React.Component<any, any> {
                   </p>
                 </div>
               </div>
-              <div className="card mx-1 flex-grow-1 bg-light" style={{flexBasis: '20%'}}>
+              <div className="card mx-1 flex-grow-1 bg-light" style={{flexBasis: '20%', ...card}}>
                 <div className="card-body text-center">
                   <h4 className="card-title h1">5</h4>
                   <p className="card-text">
@@ -173,14 +188,10 @@ export class Home extends React.Component<any, any> {
 
               <div className="form-group">
                 <div className="custom-file">
-                  <input type="file" name="fotos" className="custom-file-input" id="customFile"/>
-                  <label className="custom-file-label" htmlFor="customFile">Fotos von Ihren Zähnen (optional)</label>
+                  <input type="file" multiple={true} name="fotos" className="custom-file-input" id="customFile"/>
+                  <label className="custom-file-label" htmlFor="customFile">Vorhandene Therapieplan und Fotos von Ihren
+                    Zähnen falls vorhanden (optional)</label>
                 </div>
-              </div>
-
-              <div className="form-group">
-                <label>Vorhandene Therapieplan ( falls vorhanden)</label>
-                <textarea className="form-control" name="description"/>
               </div>
 
               <div className="form-group">
@@ -198,7 +209,8 @@ export class Home extends React.Component<any, any> {
               <div className="custom-control custom-checkbox">
                 <input type="checkbox" value={this.state.firstCheckbox} className="custom-control-input"
                        id="customCheck1" onClick={e => this.onFirstCheckbox(e)}/>
-                <label className="custom-control-label" htmlFor="customCheck1">Ich habe die <Link to={"/terms"}>Datenschutzerklärung</Link> zu Kenntnis genommen.</label>
+                <label className="custom-control-label" htmlFor="customCheck1">Ich habe die <Link
+                  to={"/terms"}>Datenschutzerklärung</Link> zu Kenntnis genommen.</label>
               </div>
 
               <div className="custom-control custom-checkbox">
