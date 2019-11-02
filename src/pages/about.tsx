@@ -23,7 +23,7 @@ export class About extends React.Component {
               Serbien ist ein Staat im süd-ost Europas. Sehr warme Sommer und kalte Winter sind für dieses Land
               charakteristisch. Belgrad mit 2 Millionen Bewohner als Hauptstadt liegt an zwei Flüsse, Donau und
               Sava, was ihm wahrscheinlich als beliebteste Stadt zum Leben macht. Sehr lebendige Stadt mit
-              verschiedenen Universitäten, Museen, vielen Sehenswürdigkeiten wie Kalemegdan ( ein Burg aus
+              verschiedenen Universitäten, Museen, vielen Sehenswürdigkeiten wie Kalemegdan ( ein Festung aus
               Mittelalter), Nikola Tesla Museum, Ada Ciganlija ( Sava See ), Gardos in Zemun und Gaststätten, die
               besonders am Wasser beliebt und besuchswert sind.
               In Belgrad befindet sich Flughafen Nikola Tesla. Dieser Flughafen bietet auch die Flüge der
