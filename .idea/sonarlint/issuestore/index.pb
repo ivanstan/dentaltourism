@@ -45,3 +45,5 @@ F
 src/index.tsx,5\a\5ab44fe33ca96299f51ad4778a73e425b92bf439
 D
 public/manifest.json,4\2\42e89cd2213b9d5dfae4f63522702c623170d792
+A
+public/index.html,f\4\f43ecdf8d666ee908aacce037b4cd72159e4741b

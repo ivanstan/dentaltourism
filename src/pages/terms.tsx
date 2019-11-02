@@ -101,10 +101,10 @@ export class Terms extends React.Component<any, any> {
 
       <h3>8. Nutzung und Weitergabe personenbezogener Daten</h3>
 
-      <p>Die im Rahmen der Webseiten der Gelencsér Dental Kft. erhobenen personenbezogenen Daten werden
+      <p>Die im Rahmen der Webseiten der Balkan Dental Tourism erhobenen personenbezogenen Daten werden
         ohne Ihre Einwilligung nur zur Bearbeitung Ihrer Anfragen und zur Vertragsabwicklung genutzt. Darüber
         hinaus erfolgt eine Nutzung Ihrer Daten für Zwecke der Werbung und Marktforschung sowie zur
-        bedarfsgerechten Gestaltung der elektronischen Dienste der Gelencsér Dental Kft. nur, wenn Sie hierzu
+        bedarfsgerechten Gestaltung der elektronischen Dienste der Balkan Dental Tourism nur, wenn Sie hierzu
         zuvor Ihre Einwilligung erteilt haben.
         Die Nutzung Ihrer Daten für persönlich auf Sie zugeschnittene Werbung erfolgt ebenfalls nur im Falle
         Ihrer Einwilligung.
@@ -115,7 +115,7 @@ export class Terms extends React.Component<any, any> {
 
       <p>
         Zur Unternehmensgruppe gehören:<br/>
-        Gelencsér Dental Kft.<br/>
+        Balkan Dental Tourism<br/>
         Vörösmarty u. 75.<br/>
         H-8380 Hévíz<br/>
       </p>
@@ -142,14 +142,14 @@ export class Terms extends React.Component<any, any> {
 
       <p>Zu Ihrer optimalen Information finden Sie auf unseren Seiten Links, die auf Seiten Dritter verweisen.
         Soweit dies nicht offensichtlich erkennbar ist, weisen wir Sie darauf hin, dass es sich um einen externen
-        Link handelt. Die Gelencsér Dental Kft. hat keinerlei Einfluss auf den Inhalt und die Gestaltung dieser
+        Link handelt. Die Balkan Dental Tourism hat keinerlei Einfluss auf den Inhalt und die Gestaltung dieser
         Seiten anderer Anbieter. Die Garantien dieser Datenschutzerklärung gelten daher selbstverständlich
         dort nicht.</p>
 
       <h3>11. Sicherheit</h3>
 
-      <p>Gelencsér Dental Kft. setzt technische und organisatorische Sicherungsmaßnahmen ein, um Ihre - der
-        Gelencsér Dental Kft. zur Verfügung gestellten Daten - durch zufällige oder vorsätzliche Manipulation,
+      <p>Balkan Dental Tourism setzt technische und organisatorische Sicherungsmaßnahmen ein, um Ihre - der
+        Balkan Dental Tourism zur Verfügung gestellten Daten - durch zufällige oder vorsätzliche Manipulation,
         Verlust, Zerstörung oder den Zugriff unberechtigter Personen zu schützen. Unsere
         Sicherheitsmaßnahmen werden entsprechend der technologischen Entwicklung stetig verbessert und
         angepasst.</p>
