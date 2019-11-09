@@ -91,7 +91,7 @@ export class Terms extends React.Component<any, any> {
 
       <h3>6. Export</h3>
 
-      <p>In der Regel findet kein Export der Daten in Staaten außerhalb des EWR statt.</p>
+      <p>In der Regel findet Export der Daten in Staaten außerhalb des EWR statt.</p>
 
       <h3>7. Erhebung und Verarbeitung personenbezogener Daten</h3>
 
@@ -116,8 +116,8 @@ export class Terms extends React.Component<any, any> {
       <p>
         Zur Unternehmensgruppe gehören:<br/>
         Balkan Dental Tourism<br/>
-        Vörösmarty u. 75.<br/>
-        H-8380 Hévíz<br/>
+        15 Oktobar<br/>
+        12000 Pozarevac, Serbien<br/>
       </p>
 
       <p>Mitunter können wir aufgrund von gesetzlichen Bestimmungen oder Rechtsvorgängen gezwungen sein,
@@ -136,7 +136,7 @@ export class Terms extends React.Component<any, any> {
         oder Auskunft, Berichtigung, Sperrung oder Löschung von Daten begehren, wenden Sie sich bitte ebenso
 
         wie zum Widerruf erteilter Einwilligungen an die unten stehende Adresse oder an:
-        info@gelencserdental.hu</p>
+        info.dentalbalkan@gmail.com</p>
 
       <h3>10. Externe Links</h3>
 

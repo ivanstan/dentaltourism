@@ -8,14 +8,14 @@ export class Imprint extends React.Component<any, any> {
 
       <p>Umsatzsteuer-ID</p>
 
-      <p>Umsatzsteuer-Identifikationsnummer/ Poreski broj<br/>
+      <p>Umsatzsteuer-Identifikationsnummer/ Steuernummer<br/>
         Verantwortlich für den Inhalt nach § 55 Abs. 2 Rstv
       </p>
 
       <p>Kontakt</p>
 
-      <p>Telefon:<br/>
-        E-Mail: info.dentalbalkan@gmail.com.<br/>
+      <p>Telefon: +491625408845<br/>
+        E-Mail: info.dentalbalkan@gmail.com<br/>
         Addresse: 15.oktobar, 12000 Pozarevac
       </p>
 

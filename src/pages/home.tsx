@@ -9,12 +9,6 @@ const anchor = {
   width: 100,
 };
 
-const overlay = {
-  position: 'relative' as 'relative',
-  marginTop: -200,
-  marginBottom: 100
-};
-
 const title:any = {
   paddingTop: 120,
   fontWeight: 'bolder',
@@ -73,7 +67,7 @@ export class Home extends React.Component<any, any> {
             <img src="/images/NEX_5212.jpg" width="23%"/>
           </div>
         </Carousel>
-        <div style={overlay}>
+        <div className="featured">
           <h1 className="text-white text-center" style={title}>Balkan Dental Tourism</h1>
           <AnchorLink href="#anfrage" className="btn bg-white d-block mx-auto" style={anchor}>Anfrage</AnchorLink>
         </div>
@@ -98,8 +92,8 @@ export class Home extends React.Component<any, any> {
           <div className="col-lg-12 mb-5">
             <h2 className="text-center my-5">Schritt für Schritt</h2>
 
-            <div className="d-flex">
-              <div className="card mx-1 flex-grow-1" style={{flexBasis: '20%', ...card}}>
+            <div className="cards">
+              <div className="card mx-1 flex-grow-1" style={{...card}}>
                 <div className="card-body text-center">
                   <h4 className="card-title h1">1</h4>
                   <p className="card-text">
@@ -107,7 +101,7 @@ export class Home extends React.Component<any, any> {
                   </p>
                 </div>
               </div>
-              <div className="card mx-1 flex-grow-1 bg-light border-0" style={{flexBasis: '20%'}}>
+              <div className="card mx-1 flex-grow-1 bg-light border-0">
                 <div className="card-body text-center">
                   <h4 className="card-title h1">2</h4>
                   <p className="card-text">
@@ -115,7 +109,7 @@ export class Home extends React.Component<any, any> {
                   </p>
                 </div>
               </div>
-              <div className="card mx-1 flex-grow-1 bg-light" style={{flexBasis: '20%', ...card}}>
+              <div className="card mx-1 flex-grow-1 bg-light" style={{...card}}>
                 <div className="card-body text-center">
                   <h4 className="card-title h1">3</h4>
                   <p className="card-text">
@@ -123,7 +117,7 @@ export class Home extends React.Component<any, any> {
                   </p>
                 </div>
               </div>
-              <div className="card mx-1 flex-grow-1 bg-light border-0" style={{flexBasis: '20%'}}>
+              <div className="card mx-1 flex-grow-1 bg-light border-0">
                 <div className="card-body text-center">
                   <h4 className="card-title h1">4</h4>
                   <p className="card-text">
@@ -131,7 +125,7 @@ export class Home extends React.Component<any, any> {
                   </p>
                 </div>
               </div>
-              <div className="card mx-1 flex-grow-1 bg-light" style={{flexBasis: '20%', ...card}}>
+              <div className="card mx-1 flex-grow-1 bg-light" style={{...card}}>
                 <div className="card-body text-center">
                   <h4 className="card-title h1">5</h4>
                   <p className="card-text">
@@ -150,22 +144,22 @@ export class Home extends React.Component<any, any> {
                   encType="multipart/form-data">
               <div className="form-group">
                 <label>Vorname ( Pflichtfeld)</label>
-                <input type="text" className="form-control" name="first_name"/>
+                <input type="text" className="form-control" name="first_name" required={true}/>
               </div>
 
               <div className="form-group">
                 <label>Name ( Pflichtfeld)</label>
-                <input type="text" className="form-control" name="last_name"/>
+                <input type="text" className="form-control" name="last_name" required={true}/>
+              </div>
+
+              <div className="form-group">
+                <label>E-Mail Adresse ( Pflichtfeld)</label>
+                <input type="email" className="form-control" name="email" required={true}/>
               </div>
 
               <div className="form-group">
                 <label>Geburtsdatum</label>
                 <input type="date" className="form-control" name="date_of_birth"/>
-              </div>
-
-              <div className="form-group">
-                <label>E-Mail Adresse ( Pflichtfeld)</label>
-                <input type="email" className="form-control" name="email"/>
               </div>
 
               <div className="form-group">
@@ -175,12 +169,12 @@ export class Home extends React.Component<any, any> {
 
               <div className="form-group">
                 <label>Beschreiben Sie Ihr Zahnproblem (Pflichtfeld)</label>
-                <textarea className="form-control" name="description"/>
+                <textarea className="form-control" name="description" required={true}/>
               </div>
 
               <div className="form-group">
                 <div className="custom-file">
-                  <input type="file" name="file" className="custom-file-input" id="customFile"/>
+                  <input type="file" name="file" className="custom-file-input" id="customFile" required={true}/>
                   <label className="custom-file-label" htmlFor="customFile">Ihr Rö Bild ( Panorama Bild-OPG)
                     (Pflichtfeld)</label>
                 </div>

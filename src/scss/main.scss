@@ -27,3 +27,56 @@ body {
   justify-content: space-between
 }
 
+.cards {
+  display: block;
+
+  .card {
+    margin-bottom: 10px;
+  }
+}
+
+.featured {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 0;
+
+  h1 {
+    font-size: 20px;
+  }
+
+  a {
+    display: none;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+
+  .cards {
+    display: flex;
+
+    .card {
+      flex-basis: 20%;
+    }
+  }
+
+  .featured {
+    margin-top: -200px;
+    margin-bottom: 100px;
+
+    a {
+      display: block;
+    }
+    h1 {
+      font-size: 20px;
+    }
+  }
+}
+
+@include media-breakpoint-up(xl) {
+  .featured {
+
+    h1 {
+      font-size: 30px;
+    }
+  }
+}
