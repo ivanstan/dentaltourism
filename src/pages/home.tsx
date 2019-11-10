@@ -83,7 +83,7 @@ export class Home extends React.Component<any, any> {
               Serbien als auch in Deutschland gesammelt hat und können somit behaupten, dass die Qualität und der
               Standard der Zahnbehandlung beider Länder absolut vergleichbar ist. Niedrigere kosten für
               zahnärztliche Behandlung bedeuten nicht immer mindere Qualität. Das können wir mit Fug und Recht
-              behaupten. Viele fragen sich, warum Zhanersatz im Ausland, in unserem Fallin Serbien, drastisch
+              behaupten. Viele fragen sich, warum Zhanersatz im Ausland, in unserem Fall in Serbien, drastisch
               günstiger ist, als in Deutschland? Dies ist einfach zu erklären. Das Lebensstandard ist günstiger,
               Steuerabgaben und Laborkosten deutlich niedriger, hingegen die Behandlungsqualität, Fachwissen und
               Fachkompetenz, zusammen mit einem hohen Verantwortungsgefühl, sehr hoch.
@@ -132,7 +132,7 @@ export class Home extends React.Component<any, any> {
                 <div className="card-body text-center">
                   <h4 className="card-title h1">5</h4>
                   <p className="card-text">
-                    Wir sorgen für die Verbindung mid der Zahnklinik
+                    Wir sorgen für die Verbindung mit der Zahnklinik
                   </p>
                 </div>
               </div>
