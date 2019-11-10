@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="119f7f1f-11cb-40ed-95c0-79381068bbf9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home.tsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -89,7 +89,8 @@
       <workItem from="1569950916964" duration="354000" />
       <workItem from="1570035619740" duration="1670000" />
       <workItem from="1570118658961" duration="5324000" />
-      <workItem from="1573240156014" duration="2954000" />
+      <workItem from="1573240156014" duration="3024000" />
+      <workItem from="1573412635757" duration="426000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1570121190195</created>
@@ -189,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573288896488</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fix angrage">
+      <created>1573412363563</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1573412363563</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -200,7 +208,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -212,6 +222,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="updated deploy script" />
     <MESSAGE value="add slider" />
-    <option name="LAST_COMMIT_MESSAGE" value="add slider" />
+    <MESSAGE value="fix angrage" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix angrage" />
   </component>
 </project>

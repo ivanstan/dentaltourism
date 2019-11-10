@@ -76,14 +76,17 @@ export class Home extends React.Component<any, any> {
         <div className="row mb-5">
           <div className="col-12">
             <h2 className="text-center my-5">Über uns</h2>
-            <p>Jeder Mensch verdient eine vernünftige Zahnbehandlung. Öfter die Preise der Zahnbehandlung insbesondere
-              Implantatsanierung in einer Zahnarztpraxis in Deutschland erlauben es nicht . Wir sind ein Team das
-              zahnärztliche Erfahrung sowie in Serbien als auch in Deutscland gesammelt hat und die Qualität der
-              Zahnbehandlung in Serbien mit der deutschen vergleichen darf und kann. Niedrigere kosten für zahnärztliche
-              Behandlung bedeuten nicht immer weniger Qualität. Das kann man auch in diesem Fall behaupten. Viele fragen
-              sich warum ist im Ausland bzw. Serbien Zahnersatz drastisch billiger als in Deutschland? Es ist einfach zu
-              erklären. Lebensstandard, Steuer und Laborkosten sind niedriger, die Qualität, die Verantwortung,
-              Fähigkeit und Fachwissen im Gegenteil nicht.
+            <p>
+              Jeder Mensch verdient eine vernünftige Zahnbehandlung. Immer öfter passiert es, dass die Preise der
+              Zahnbehandlung, insbesondere das Setzen von Implantaten in einer Zahnarztpraxis in Deutschland, dies
+              nicht erlauben . Wir sind ein professionelles Team aus Zahnärzten, welches Erfahrungen sowohl in
+              Serbien als auch in Deutschland gesammelt hat und können somit behaupten, dass die Qualität und der
+              Standard der Zahnbehandlung beider Länder absolut vergleichbar ist. Niedrigere kosten für
+              zahnärztliche Behandlung bedeuten nicht immer mindere Qualität. Das können wir mit Fug und Recht
+              behaupten. Viele fragen sich, warum Zhanersatz im Ausland, in unserem Fallin Serbien, drastisch
+              günstiger ist, als in Deutschland? Dies ist einfach zu erklären. Das Lebensstandard ist günstiger,
+              Steuerabgaben und Laborkosten deutlich niedriger, hingegen die Behandlungsqualität, Fachwissen und
+              Fachkompetenz, zusammen mit einem hohen Verantwortungsgefühl, sehr hoch.
             </p>
           </div>
         </div>
@@ -105,7 +108,7 @@ export class Home extends React.Component<any, any> {
                 <div className="card-body text-center">
                   <h4 className="card-title h1">2</h4>
                   <p className="card-text">
-                    Wir schicken die Anfrage an Zahnarztpraxis in Serbien
+                    Wir schicken die Anfrage an eine Zahnarztpraxis in Serbien
                   </p>
                 </div>
               </div>
@@ -113,7 +116,7 @@ export class Home extends React.Component<any, any> {
                 <div className="card-body text-center">
                   <h4 className="card-title h1">3</h4>
                   <p className="card-text">
-                    Sie entscheiden sich für Zahnklinik wo Sie sich behandeln lassen möchten
+                    Sie entscheiden sich für eine Zahnklinik Ihrer Wahl, wo Sie sich behandeln lassen möchten
                   </p>
                 </div>
               </div>
@@ -121,7 +124,7 @@ export class Home extends React.Component<any, any> {
                 <div className="card-body text-center">
                   <h4 className="card-title h1">4</h4>
                   <p className="card-text">
-                    Wir bekommen Therapieplan für Sie
+                    Wir bekommen einen Therapieplan für Sie
                   </p>
                 </div>
               </div>
@@ -129,7 +132,7 @@ export class Home extends React.Component<any, any> {
                 <div className="card-body text-center">
                   <h4 className="card-title h1">5</h4>
                   <p className="card-text">
-                    Wir verbinden Sie mit der Zahnklinik
+                    Wir sorgen für die Verbindung mid der Zahnklinik
                   </p>
                 </div>
               </div>
@@ -189,13 +192,14 @@ export class Home extends React.Component<any, any> {
               </div>
 
               <div className="form-group">
-                <label>Gewünschte Datum Ihres Therapiebeginns</label>
+                <label>Gewünschtes Datum Ihres Therapiebeginns</label>
                 <input type="date" className="form-control" name="date"/>
               </div>
 
               <div className="form-group">
-                <label>Möchten Sie einen Kostenvoranschlag für Ihre Aufenthalt im Serbien während der Behandlung ( Falls
-                  ja, wie viel Personen sollen wir buchen, liegen besondere wünsche für das Hotel, bitte beschreiben )
+                <label>Wünschen Sie einen Kostenvoranschlag für Ihren Aufenthalt in Serbien während Ihrer
+                  Behandlung? (Falls ja, wieviel Personen sollen wir buchen? Liegen besondere Wünsche vor, z.B.
+                  für das Hotel, bitte beschreiben).
                 </label>
                 <textarea className="form-control" name="custom"/>
               </div>
@@ -204,13 +208,13 @@ export class Home extends React.Component<any, any> {
                 <input type="checkbox" value={this.state.firstCheckbox} className="custom-control-input"
                        id="customCheck1" onClick={e => this.onFirstCheckbox(e)}/>
                 <label className="custom-control-label" htmlFor="customCheck1">Ich habe die <Link
-                  to={"/terms"}>Datenschutzerklärung</Link> zu Kenntnis genommen.</label>
+                  to={"/terms"}>Datenschutzerklärung</Link> zur Kenntnis genommen.</label>
               </div>
 
               <div className="custom-control custom-checkbox">
                 <input type="checkbox" value={this.state.secondCheckbox} className="custom-control-input"
                        id="customCheck2" onClick={e => this.onSecondCheckbox(e)}/>
-                <label className="custom-control-label" htmlFor="customCheck2">Ich stimme den AGB zu.</label>
+                <label className="custom-control-label" htmlFor="customCheck2">Ich stimme den AGB´s zu.</label>
               </div>
 
               <input type="submit" value="Submit" disabled={!this.state.firstCheckbox || !this.state.secondCheckbox}
