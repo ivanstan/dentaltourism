@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="119f7f1f-11cb-40ed-95c0-79381068bbf9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/home.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/partners.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/partners.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +91,8 @@
       <workItem from="1570035619740" duration="1670000" />
       <workItem from="1570118658961" duration="5324000" />
       <workItem from="1573240156014" duration="3024000" />
-      <workItem from="1573412635757" duration="426000" />
+      <workItem from="1573412635757" duration="571000" />
+      <workItem from="1573465788978" duration="801000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1570121190195</created>

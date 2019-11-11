@@ -80,3 +80,14 @@ body {
     }
   }
 }
+
+.savski-venac-carousel {
+  .thumbs {
+    display: flex;
+    padding: 0;
+
+    .thumb {
+      flex-grow: 1;
+    }
+  }
+}
