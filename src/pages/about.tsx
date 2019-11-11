@@ -26,10 +26,9 @@ export class About extends React.Component {
               verschiedenen Universitäten, Museen und vielen Sehenswürdigkeiten.Einige davon sind der Kalemegdan, eine Festung aus
               Mittelalter, das Nikola Tesla Museum, die Ada Ciganlija, der Sava See usw.Desweiteren gibt es sehr gut geführte Gaststätten, die
               besonders am Wasser in Form von schwimmenden Booten beliebt und besuchenswert sind.
-              In Belgrad befindet sich Flughafen Nikola Tesla. Dieser Flughafen bietet auch die Flüge der
-              kostengünstigeren Unternehmen wie Ryanair und Wizzair die täglich fliegen auf die Strecke
-              Deutschland-Serbien. In etwa 200 Km entfernte Stadt Nis, im Süden des Landes, befindet sich auch
-              Flughafen die solche Flüge bietet.
+              In Belgrad befindet sich der Flughafen Nikola Tesla. Dieser wird täglich von der
+              kostengünstigeren Unternehmen wie Ryan- und Wizzair von Deutschland aus angeflogen.
+              Dasselbe gilt für 200 Km entfernte Stadt Niš und deren Flughafen.
             </p>
           </div>
         </div>
