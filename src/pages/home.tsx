@@ -110,10 +110,10 @@ export class Home extends React.Component<any, any> {
               Zahnbehandlung, insbesondere das Setzen von Implantaten in einer Zahnarztpraxis in Deutschland, dies
               nicht erlauben . Wir sind ein professionelles Team aus Zahnärzten, welches Erfahrungen sowohl in
               Serbien als auch in Deutschland gesammelt hat und können somit behaupten, dass die Qualität und der
-              Standard der Zahnbehandlung beider Länder absolut vergleichbar ist. Niedrigere kosten für
-              zahnärztliche Behandlung bedeuten nicht immer mindere Qualität. Das können wir mit Fug und Recht
-              behaupten. Viele fragen sich, warum Zhanersatz im Ausland, in unserem Fall in Serbien, drastisch
-              günstiger ist, als in Deutschland? Dies ist einfach zu erklären. Das Lebensstandard ist günstiger,
+              Standard der Zahnbehandlung beider Länder absolut vergleichbar ist. Niedrigere Kosten für
+              zahnärztliche Behandlungen bedeuten nicht immer mindere Qualität. Das können wir mit Fug und Recht
+              behaupten. Viele fragen sich, warum Zahnersatz im Ausland, in unserem Fall in Serbien, drastisch
+              günstiger ist, als in Deutschland? Dies ist einfach zu erklären. Der Lebensstandard ist günstiger,
               Steuerabgaben und Laborkosten deutlich niedriger, hingegen die Behandlungsqualität, Fachwissen und
               Fachkompetenz, zusammen mit einem hohen Verantwortungsgefühl, sehr hoch.
             </p>
@@ -213,7 +213,7 @@ export class Home extends React.Component<any, any> {
               </div>
 
               <div className="form-group">
-                <label>Vorhandene Therapieplan und Fotos von Ihren Zähnen falls vorhanden (optional)</label>
+                <label>Vorhandener Therapieplan und Fotos von Ihren Zähnen, falls vorhanden (optional)</label>
                 <div className="custom-file">
                   <input type="file" onChange={(e) => this.onFileChange("file2", e)} ref={this.file2} multiple={true} name="fotos" className="custom-file-input" id="customFile2"/>
                   <label className="custom-file-label" htmlFor="customFile2">{this.state.file2label}</label>
