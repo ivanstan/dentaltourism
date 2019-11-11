@@ -25,13 +25,20 @@ const card = {
 };
 
 export class Home extends React.Component<any, any> {
+  private file1: any;
+  private file2: any;
 
   constructor(props: any) {
     super(props);
 
+    this.file1 = React.createRef();
+    this.file2 = React.createRef();
+
     this.state = {
       firstCheckbox: false,
       secondCheckbox: false,
+      file1label: "",
+      file2label: "",
     };
   }
 
@@ -45,6 +52,28 @@ export class Home extends React.Component<any, any> {
     this.setState({
       secondCheckbox: !this.state.secondCheckbox
     });
+  }
+
+  onFileChange(field: any, event: any) {
+    let self:any = this;
+    let fileList = self[field].current.files;
+    let name = "";
+
+    if (fileList.length > 0) {
+      name = fileList[0].name;
+    }
+
+    if (field === 'file1') {
+      this.setState({
+        file1label: name,
+      });
+    }
+
+    if (field === 'file2') {
+      this.setState({
+        file2label: name,
+      });
+    }
   }
 
   public render() {
@@ -178,16 +207,16 @@ export class Home extends React.Component<any, any> {
               <div className="form-group">
                 <label>Ihr Rö Bild ( Panorama Bild-OPG) (Pflichtfeld)</label>
                 <div className="custom-file">
-                  <input type="file" name="file" className="custom-file-input" id="customFile1" required={true}/>
-                  <label className="custom-file-label" htmlFor="customFile2"/>
+                  <input type="file" onChange={(e) => this.onFileChange("file1", e)} ref={this.file1} name="file" className="custom-file-input" id="customFile1" required={true}/>
+                  <label className="custom-file-label" htmlFor="customFile2">{this.state.file1label}</label>
                 </div>
               </div>
 
               <div className="form-group">
                 <label>Vorhandene Therapieplan und Fotos von Ihren Zähnen falls vorhanden (optional)</label>
                 <div className="custom-file">
-                  <input type="file" multiple={true} name="fotos" className="custom-file-input" id="customFile2"/>
-                  <label className="custom-file-label" htmlFor="customFile2"/>
+                  <input type="file" onChange={(e) => this.onFileChange("file2", e)} ref={this.file2} multiple={true} name="fotos" className="custom-file-input" id="customFile2"/>
+                  <label className="custom-file-label" htmlFor="customFile2">{this.state.file2label}</label>
                 </div>
               </div>
 
