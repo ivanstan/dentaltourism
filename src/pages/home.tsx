@@ -176,18 +176,18 @@ export class Home extends React.Component<any, any> {
               </div>
 
               <div className="form-group">
+                <label>Ihr Rö Bild ( Panorama Bild-OPG) (Pflichtfeld)</label>
                 <div className="custom-file">
-                  <input type="file" name="file" className="custom-file-input" id="customFile" required={true}/>
-                  <label className="custom-file-label" htmlFor="customFile">Ihr Rö Bild ( Panorama Bild-OPG)
-                    (Pflichtfeld)</label>
+                  <input type="file" name="file" className="custom-file-input" id="customFile1" required={true}/>
+                  <label className="custom-file-label" htmlFor="customFile2"/>
                 </div>
               </div>
 
               <div className="form-group">
+                <label>Vorhandene Therapieplan und Fotos von Ihren Zähnen falls vorhanden (optional)</label>
                 <div className="custom-file">
-                  <input type="file" multiple={true} name="fotos" className="custom-file-input" id="customFile"/>
-                  <label className="custom-file-label" htmlFor="customFile">Vorhandene Therapieplan und Fotos von Ihren
-                    Zähnen falls vorhanden (optional)</label>
+                  <input type="file" multiple={true} name="fotos" className="custom-file-input" id="customFile2"/>
+                  <label className="custom-file-label" htmlFor="customFile2"/>
                 </div>
               </div>
 
@@ -207,14 +207,14 @@ export class Home extends React.Component<any, any> {
               <div className="custom-control custom-checkbox">
                 <input type="checkbox" value={this.state.firstCheckbox} className="custom-control-input"
                        id="customCheck1" onClick={e => this.onFirstCheckbox(e)}/>
-                <label className="custom-control-label" htmlFor="customCheck1">Ich habe die <Link
+                <label className="custom-control-label font-weight-bold" htmlFor="customCheck1">Ich habe die <Link
                   to={"/terms"}>Datenschutzerklärung</Link> zur Kenntnis genommen.</label>
               </div>
 
               <div className="custom-control custom-checkbox">
                 <input type="checkbox" value={this.state.secondCheckbox} className="custom-control-input"
                        id="customCheck2" onClick={e => this.onSecondCheckbox(e)}/>
-                <label className="custom-control-label" htmlFor="customCheck2">Ich stimme den AGB´s zu.</label>
+                <label className="custom-control-label font-weight-bold" htmlFor="customCheck2">Ich stimme den AGB´s zu.</label>
               </div>
 
               <input type="submit" value="Submit" disabled={!this.state.firstCheckbox || !this.state.secondCheckbox}
