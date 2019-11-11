@@ -20,15 +20,15 @@ export class About extends React.Component {
           <div className="col-12">
             <h1 className="mt-5">Über Serbien</h1>
             <p>
-              Serbien ist ein Staat im süd-ost Europas. Sehr warme Sommer und kalte Winter sind für dieses Land
-              charakteristisch. Belgrad mit 2 Millionen Bewohner als Hauptstadt liegt an zwei Flüsse, Donau und
-              Sava, was ihm wahrscheinlich als beliebteste Stadt zum Leben macht. Sehr lebendige Stadt mit
-              verschiedenen Universitäten, Museen, vielen Sehenswürdigkeiten wie Kalemegdan ( ein Festung aus
-              Mittelalter), Nikola Tesla Museum, Ada Ciganlija ( Sava See ), Gardos in Zemun und Gaststätten, die
-              besonders am Wasser beliebt und besuchswert sind.
+              Serbien ist ein Staat in Südosteuropa.Sehr warme Sommer und kalte Winter sind für dieses Land
+              charakteristisch.Belgrad als Hauptstadt mit über 2 Millionen Einwohnern, liegt an zwei Flüssen, Donau und
+              Sava.Dies macht die Stadt höchstwahrscheinlich sehr beliebt, um in ihr zu wohnen.Belgrad ist eine sehr lebendige Stadt mit
+              verschiedenen Universitäten, Museen und vielen Sehenswürdigkeiten.Einige davon sind der Kalemegdan, eine Festung aus
+              Mittelalter, das Nikola Tesla Museum, die Ada Ciganlija, der Sava See usw.Desweiteren gibt es sehr gut geführte Gaststätten, die
+              besonders am Wasser in Form von schwimmenden Booten beliebt und besuchenswert sind.
               In Belgrad befindet sich Flughafen Nikola Tesla. Dieser Flughafen bietet auch die Flüge der
               kostengünstigeren Unternehmen wie Ryanair und Wizzair die täglich fliegen auf die Strecke
-              Deutschland-Serbien. In etwa 200 Km entfernte Stadt Nis, in Süden des Landes, befindet sich auch
+              Deutschland-Serbien. In etwa 200 Km entfernte Stadt Nis, im Süden des Landes, befindet sich auch
               Flughafen die solche Flüge bietet.
             </p>
           </div>
