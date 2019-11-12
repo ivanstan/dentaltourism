@@ -137,7 +137,7 @@ export class Home extends React.Component<any, any> {
                 <div className="card-body text-center">
                   <h4 className="card-title h1">2</h4>
                   <p className="card-text">
-                    Wir schicken die Anfrage an eine Zahnarztpraxis in Serbien
+                    Wir schicken Ihre Anfrage an mehreren Zahnarztpraxen in Serbien
                   </p>
                 </div>
               </div>
@@ -145,7 +145,7 @@ export class Home extends React.Component<any, any> {
                 <div className="card-body text-center">
                   <h4 className="card-title h1">3</h4>
                   <p className="card-text">
-                    Sie entscheiden sich für eine Zahnklinik Ihrer Wahl, wo Sie sich behandeln lassen möchten
+                    Wir bekommen Therapipläne und Kostenvoranschläge für Sie
                   </p>
                 </div>
               </div>
@@ -153,7 +153,7 @@ export class Home extends React.Component<any, any> {
                 <div className="card-body text-center">
                   <h4 className="card-title h1">4</h4>
                   <p className="card-text">
-                    Wir bekommen einen Therapieplan für Sie
+                   Sie entscheiden sich für eine Zahnklinik Ihrer Wahl, wo Sie sich behandeln lassen möchten
                   </p>
                 </div>
               </div>
