@@ -1,1 +1,1 @@
-export const mailContact = '';
+export const mailContact = 'a';
