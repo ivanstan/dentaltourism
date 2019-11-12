@@ -2,14 +2,14 @@ import React from 'react';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import {Carousel} from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import {Link, NavLink} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 const anchor = {
   marginTop: 30,
   width: 100,
 };
 
-const title:any = {
+const title: any = {
   paddingTop: 120,
   fontWeight: 'bolder',
   padding: 10,
@@ -55,7 +55,7 @@ export class Home extends React.Component<any, any> {
   }
 
   onFileChange(field: any, event: any) {
-    let self:any = this;
+    let self: any = this;
     let fileList = self[field].current.files;
     let name = "";
 
@@ -207,7 +207,8 @@ export class Home extends React.Component<any, any> {
               <div className="form-group">
                 <label>Ihr Rö Bild ( Panorama Bild-OPG) (Pflichtfeld)</label>
                 <div className="custom-file">
-                  <input type="file" onChange={(e) => this.onFileChange("file1", e)} ref={this.file1} name="file" className="custom-file-input" id="customFile1" required={true}/>
+                  <input type="file" onChange={(e) => this.onFileChange("file1", e)} ref={this.file1} name="file"
+                         className="custom-file-input" id="customFile1" required={true}/>
                   <label className="custom-file-label" htmlFor="customFile2">{this.state.file1label}</label>
                 </div>
               </div>
@@ -215,7 +216,8 @@ export class Home extends React.Component<any, any> {
               <div className="form-group">
                 <label>Vorhandener Therapieplan und Fotos von Ihren Zähnen, falls vorhanden (optional)</label>
                 <div className="custom-file">
-                  <input type="file" onChange={(e) => this.onFileChange("file2", e)} ref={this.file2} multiple={true} name="fotos" className="custom-file-input" id="customFile2"/>
+                  <input type="file" onChange={(e) => this.onFileChange("file2", e)} ref={this.file2} multiple={true}
+                         name="fotos" className="custom-file-input" id="customFile2"/>
                   <label className="custom-file-label" htmlFor="customFile2">{this.state.file2label}</label>
                 </div>
               </div>
@@ -243,7 +245,8 @@ export class Home extends React.Component<any, any> {
               <div className="custom-control custom-checkbox">
                 <input type="checkbox" value={this.state.secondCheckbox} className="custom-control-input"
                        id="customCheck2" onClick={e => this.onSecondCheckbox(e)}/>
-                <label className="custom-control-label font-weight-bold" htmlFor="customCheck2">Ich stimme den AGB´s zu.</label>
+                <label className="custom-control-label font-weight-bold" htmlFor="customCheck2">Ich stimme den AGB´s
+                  zu.</label>
               </div>
 
               <input type="submit" value="Submit" disabled={!this.state.firstCheckbox || !this.state.secondCheckbox}

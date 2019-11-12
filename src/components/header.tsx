@@ -28,7 +28,7 @@ export class Header extends React.Component<any, any> {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
-            <NavLink className="nav-link" exact to="/">Stratseite</NavLink>
+            <NavLink className="nav-link" exact to="/">Startseite</NavLink>
             <a className="nav-link" href="#" onClick={() => this.anfrageClick()}>Anfrage</a>
             <NavLink className="nav-link" exact to="/partners">Zahnarztpraxen</NavLink>
             <NavLink className="nav-link" exact to="/about">Über Serbien</NavLink>
