@@ -145,7 +145,7 @@ export class Home extends React.Component<any, any> {
                 <div className="card-body text-center">
                   <h4 className="card-title h1">3</h4>
                   <p className="card-text">
-                    Wir bekommen Therapipläne und Kostenvoranschläge für Sie
+                    Wir bekommen Therapiepläne und Kostenvoranschläge für Sie
                   </p>
                 </div>
               </div>
