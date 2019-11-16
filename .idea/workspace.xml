@@ -1,9 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="119f7f1f-11cb-40ed-95c0-79381068bbf9" name="Default Changelist" comment="">
+    <list default="true" id="119f7f1f-11cb-40ed-95c0-79381068bbf9" name="Default Changelist" comment="``fix angrage``">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/font-awesome/fa-brands-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/font-awesome/fa-brands-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/font-awesome/fa-brands-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/font-awesome/fa-brands-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/font-awesome/fa-brands-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/font-awesome/fa-light-300.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/font-awesome/fa-light-300.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/font-awesome/fa-light-300.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/font-awesome/fa-light-300.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/font-awesome/fa-light-300.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/font-awesome/fa-regular-400.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/font-awesome/fa-regular-400.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/font-awesome/fa-regular-400.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/font-awesome/fa-regular-400.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/font-awesome/fa-regular-400.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/font-awesome/fa-solid-900.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/font-awesome/fa-solid-900.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/font-awesome/fa-solid-900.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/font-awesome/fa-solid-900.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/fonts/font-awesome/fa-solid-900.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/NEX_5167.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/NEX_5189.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/images/NEX_5212.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,6 +123,8 @@
       <workItem from="1573465788978" duration="3257000" />
       <workItem from="1573486839637" duration="34000" />
       <workItem from="1573577902095" duration="65000" />
+      <workItem from="1573756799977" duration="14000" />
+      <workItem from="1573919480794" duration="38000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1570121190195</created>
