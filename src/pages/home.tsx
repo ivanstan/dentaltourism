@@ -229,7 +229,7 @@ export class Home extends React.Component<any, any> {
 
               <div className="form-group">
                 <label>Wünschen Sie einen Kostenvoranschlag für Ihren Aufenthalt in Serbien während Ihrer
-                  Behandlung? (Falls ja, wieviel Personen sollen wir buchen? Liegen besondere Wünsche vor, z.B.
+                  Behandlung? (Falls ja, wieviele Personen sollen wir buchen? Liegen besondere Wünsche vor, z.B.
                   für das Hotel, bitte beschreiben).
                 </label>
                 <textarea className="form-control" name="custom"/>
